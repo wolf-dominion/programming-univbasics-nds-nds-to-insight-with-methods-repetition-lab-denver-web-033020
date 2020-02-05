@@ -47,13 +47,14 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
  
- directorArray = list_of_directors()
+ directorArray = list_of_directors(source)
+ directorHash = directors_totals(source)
  
  i = 0
  
-  while i < list_of_directors().length
+  while i < directorArray.length
 
-      list_of_directors
+      [directorArray[i]]
     i += 1
   end
  
