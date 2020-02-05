@@ -47,7 +47,11 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
  
+ # directors_totals() # need to match the name w array element name, then add the values together
+ arrayOfDir = []
+ arrayOfDir = list_of_directors()
  
+ puts arrayOfDir
 
 end
 
