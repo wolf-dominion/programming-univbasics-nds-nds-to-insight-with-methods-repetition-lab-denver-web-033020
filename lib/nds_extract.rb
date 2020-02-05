@@ -62,6 +62,8 @@ def total_gross(source)
       totalMoney = totalMoney + directorHash[directorArray[i]]
     i += 1
   end
+ 
+ puts totalMoney
  totalMoney
 
 end
