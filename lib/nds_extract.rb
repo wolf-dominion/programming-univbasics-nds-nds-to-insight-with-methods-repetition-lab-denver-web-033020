@@ -53,11 +53,13 @@ def total_gross(source)
  directorArray = list_of_directors(source)
  directorHash = directors_totals(source)
  
+ totalMoney = 0
+ 
  i = 0
  
   while i < directorArray.length
 
-      directorHash[directorArray[i]]
+      totalMoney = totalMoney + directorHash[directorArray[i]]
     i += 1
   end
  
