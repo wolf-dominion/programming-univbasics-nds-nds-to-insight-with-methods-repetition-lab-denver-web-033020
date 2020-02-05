@@ -48,7 +48,7 @@ def total_gross(source)
   # return the total
  
  directorArray = []
- directorHash = []
+ directorHash = {}
  
  directorArray = list_of_directors(source)
  directorHash = directors_totals(source)
