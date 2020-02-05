@@ -29,6 +29,7 @@ def list_of_directors(source)
   i = 0
   while i < source.length
     
+    i += 1
   end
   
 end
